@@ -6,11 +6,11 @@ function LoginForm(){
             <form>
                 <label>Name</label>
                 <br></br>
-                <input placeholder="Name" type="text"></input>
+                <input placeholder="Name:" type="text"></input>
                 <br></br><br></br>
                 <label>Password</label>
                 <br></br>
-                <input placeholder="Password" type="password"></input>
+                <input placeholder="Password:" type="password"></input>
                 <br></br><br></br>
                 <button>Submit</button>
             </form>
