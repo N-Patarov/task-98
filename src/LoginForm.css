@@ -1,0 +1,17 @@
+.main{
+    
+    height: 5%;
+    align-items: center;
+    background: rgb(235, 235, 235);
+    justify-content: center;
+    padding: 2rem;
+}
+button{
+    background: rgb(45, 103, 228);
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 10%;
+    height: 30px;
+}
