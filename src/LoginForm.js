@@ -1,18 +1,18 @@
-import "./LoginForm.module.css";
+import "./components/LoginForm.css";
 
 function LoginForm(){
     return(
         <div className="main">
-            <form>
-                <label>Name</label>
+            <form className="form">
+                <label className="label">Name</label>
                 <br></br>
-                <input placeholder="Name:" type="text"></input>
+                <input className="input" placeholder="Name:" type="text"></input>
                 <br></br><br></br>
-                <label>Password</label>
+                <label className="label">Password</label>
                 <br></br>
-                <input placeholder="Password:" type="password"></input>
+                <input className="input" placeholder="Password:" type="password"></input>
                 <br></br><br></br>
-                <button>Submit</button>
+                <button className="submit">Submit</button>
             </form>
         </div>
     )
